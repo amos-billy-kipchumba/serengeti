@@ -1,0 +1,329 @@
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+    min-height: 90vh;
+}
+
+.services-container > h2 {
+    margin: 20px auto 0 auto;
+}
+
+.services-container > h3 {
+    margin: 20px auto;
+}
+
+.services-container > p {
+    margin: 10px auto 0 auto;
+    width: 80%;
+}
+
+.services-container-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.services-container-main-one {
+    width: 230px;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: auto auto 20px auto;
+    text-align: center;
+}
+
+.services-container-main-one:hover {
+    background: linear-gradient(to bottom, #222736, #222736);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.services-container-main-one > p {
+    margin: 5px auto;
+}
+
+.services-container-main-one > p:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.services-container-main-account {
+    width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+    .services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+        align-items: center;
+    }
+    
+    .services-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .services-container > h3 {
+        margin: 20px auto;
+    }
+    
+    .services-container > p {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    
+    .services-container-main {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    
+    .services-container-main-one {
+        width: 80%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin: auto auto 20px auto;
+        text-align: center;
+    }
+    
+    .services-container-main-one:hover {
+        background: linear-gradient(to bottom, #222736, #222736);
+        color: white;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-one > p {
+        margin: 5px auto;
+    }
+    
+    .services-container-main-one > p:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-account {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 530px) and (max-width: 760px) {
+    .services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+        align-items: center;
+    }
+    
+    .services-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .services-container > h3 {
+        margin: 20px auto;
+    }
+    
+    .services-container > p {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    
+    .services-container-main {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    
+    .services-container-main-one {
+        width: 40%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin: auto auto 20px auto;
+        text-align: center;
+    }
+    
+    .services-container-main-one:hover {
+        background: linear-gradient(to bottom, #222736, #222736);
+        color: white;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-one > p {
+        margin: 5px auto;
+    }
+    
+    .services-container-main-one > p:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-account {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+        align-items: center;
+    }
+    
+    .services-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .services-container > h3 {
+        margin: 20px auto;
+    }
+    
+    .services-container > p {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    
+    .services-container-main {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    
+    .services-container-main-one {
+        width: 40%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin: auto auto 20px auto;
+        text-align: center;
+    }
+    
+    .services-container-main-one:hover {
+        background: linear-gradient(to bottom, #222736, #222736);
+        color: white;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-one > p {
+        margin: 5px auto;
+    }
+    
+    .services-container-main-one > p:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-account {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1030px) {
+    .services-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+        align-items: center;
+    }
+    
+    .services-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .services-container > h3 {
+        margin: 20px auto;
+    }
+    
+    .services-container > p {
+        margin: 10px auto 0 auto;
+        width: 95%;
+    }
+    
+    .services-container-main {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+    
+    .services-container-main-one {
+        width: 30%;
+        min-height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin: auto auto 20px auto;
+        text-align: center;
+    }
+    
+    .services-container-main-one:hover {
+        background: linear-gradient(to bottom, #222736, #222736);
+        color: white;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-one > p {
+        margin: 5px auto;
+    }
+    
+    .services-container-main-one > p:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .services-container-main-account {
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+.profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+    min-height: 90vh;
+}
+
+.profile-container > h2 {
+    margin: 20px auto 0 auto;
+}
+
+.profile-container > p {
+    margin: 10px auto 0 auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 440px) {
+    .profile-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+    }
+    
+    .profile-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .profile-container > p {
+        margin: 10px auto 10px auto;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 530px) and (max-width: 760px) {
+    .profile-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+    }
+    
+    .profile-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .profile-container > p {
+        margin: 10px auto 10px auto;
+        width: 95%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .profile-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+    }
+    
+    .profile-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .profile-container > p {
+        margin: 10px auto 10px auto;
+        width: 95%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1030px) {
+    .profile-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient(#F1F1F1 10%, #E2E3E5 40%);
+        min-height: 90vh;
+    }
+    
+    .profile-container > h2 {
+        margin: 20px auto 0 auto;
+    }
+    
+    .profile-container > p {
+        margin: 10px auto 10px auto;
+        width: 95%;
+    }
+}
