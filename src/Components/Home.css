@@ -1265,7 +1265,7 @@
     .services-container2 > h2 {
         color: white;
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, 40%);
         font-size: 20px;
@@ -1274,7 +1274,7 @@
     .services-container2 > p {
         color: white;
         position: absolute;
-        top: 45%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, 40%);
         font-size: 20px;
